@@ -13,7 +13,7 @@ limite_data = hoje - timedelta(days=730)
 st.title("🧹 Detector de Planilhas Obsoletas")
 
 # Botão para iniciar
-if st.button(r"🔍 Iniciar varredura em C:\"):
+if st.button(r"🔍 Iniciar varredura em C:\\"):
     mantidos = []
     excluidos = []
     hashes = set()
